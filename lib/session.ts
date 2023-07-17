@@ -66,8 +66,7 @@ export const authOptions: NextAuthOptions = {
             user.image as string
           );
         }
-
-        return true
+        return true;
       } catch (error: any) {
         console.log(error);
         return false;
