@@ -39,7 +39,6 @@ const Navbar = async () => {
               <Link href='/create-project'>
                 Share Work
               </Link>
-
             </>
           ) : (
             <AuthProviders />
